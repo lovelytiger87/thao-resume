@@ -1,0 +1,166 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	font-family: 'Dosis', sans-serif;
+}
+.header {
+	background-color:  #f2f3f3;
+}
+nav {
+	width: 100%;
+}
+ul {
+	width: inherit;
+}
+ul li{
+	display: inline-block;
+	float: center;
+	margin-left: 5%;
+	padding-top: 1%;
+
+}
+ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+li a:hover,
+li a:focus {
+	text-decoration: none;
+	color: #f127d9;
+	
+}
+
+h1#name {
+font-family: 'Dosis';
+color: #2f4152; 
+font-weight: 800;
+text-align: left;
+padding-left: 9%;
+
+}
+h4#title {
+font-family: Corbel;
+color:  #2f4152;
+
+font-weight: 400;
+letter-spacing: 0.8px;
+text-align: left;
+transform: scaleY(1.0004);
+padding-left: 9%;
+}
+div.header {
+	padding: 3% 0 2% 0;
+	border-radius: 1%;
+}
+
+i {
+	color: blue;
+	text-align: center;
+	margin-top: 5%;
+}
+
+div.about {
+	width: 35%;
+	float: left;
+}
+div.detail {
+	width: 60%;
+	float: left;
+
+}
+.contact{
+
+	width: 10%;
+	float: left;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.info {
+	width: 90%;
+	float: left;
+}
+
+.social,
+#skills {
+	width: 100%;
+	float: left;
+	
+}
+.contact li i, .contact li,
+.info li {
+	list-style: none;
+	color: #2f4152;
+}
+h2#about,
+#skills h2 {
+	padding: 3% 2% 3% 2%;
+	background: #2F4051;
+	font-size: 1.5em;
+	color: #fff;
+	-ms-transform: skew(-25deg); /* IE 9 */
+    -webkit-transform: skew(-25deg); /* Chrome, Safari, Opera */
+    transform: skew(-25deg)
+
+
+}
+#detail p{
+	font-size: 0.9em;
+	line-height: 1.3em;
+	letter-spacing: 3px;
+	margin-left: 5%;
+	color: #010000;
+
+}
+#detail {
+	margin: 4% 0 5% 0;
+}
+span i {
+	color: #f127d9;
+}
+span.skill {
+	font-weight: 900;
+	color: #2f4152;
+}
+li#lan {
+	display: inline-block;
+	float: left;
+	padding-left: 3%;
+	padding-top: 2%;
+
+}
+#lan i {
+	color: #2f4152;
+
+}
+.language {
+	width: 40%;
+	float: left;
+	padding-left: 5%;
+}
+.language li h3 {
+	padding-right: 5%;
+	font-size: 2em;
+	font-family: 'Indie Flowers';
+}
+div.work {
+	background: #2F4051;
+	margin: 3% 0 3% 0;
+
+}
+
+
+.row,
+#edu {
+	color: white;
+	padding: 2% 0 2% 0;
+}
+h5#time {
+	background: #0fbef2;
+	width: 15%;
+	text-align: center;
+	padding: 2px 0 2px 0;
+	border-radius: 40%;
+}
