@@ -19,7 +19,7 @@ ul li{
 	display: inline-block;
 	float: center;
 	margin-left: 5%;
-	padding-top: 1%;
+	padding-top: 1.2%;
 
 }
 ul li a {
@@ -42,7 +42,7 @@ padding-left: 9%;
 
 }
 h4#title {
-font-family: Corbel;
+
 color:  #2f4152;
 
 font-weight: 400;
@@ -72,13 +72,14 @@ div.detail {
 
 }
 .contact{
-
+	margin-top: 5%;
 	width: 10%;
 	float: left;
 	font-weight: bolder;
 	text-decoration: none;
 }
 .info {
+	margin-top: 5%;
 	width: 90%;
 	float: left;
 }
@@ -94,28 +95,31 @@ div.detail {
 	list-style: none;
 	color: #2f4152;
 }
-h2#about,
-#skills h2 {
+#about h2,
+#skills h2{
 	padding: 3% 2% 3% 2%;
 	background: #2F4051;
 	font-size: 1.5em;
 	color: #fff;
-	-ms-transform: skew(-25deg); /* IE 9 */
-    -webkit-transform: skew(-25deg); /* Chrome, Safari, Opera */
-    transform: skew(-25deg)
-
+	-ms-transform: skew(-20deg); /* IE 9 */
+    -webkit-transform: skew(-20deg); /* Chrome, Safari, Opera */
+    transform: skew(-20deg)
 
 }
 #detail p{
+	
 	font-size: 0.9em;
 	line-height: 1.3em;
 	letter-spacing: 3px;
 	margin-left: 5%;
 	color: #010000;
 
+
+	
+
 }
 #detail {
-	margin: 4% 0 5% 0;
+	margin: 7% 0 5% 0;
 }
 span i {
 	color: #f127d9;
@@ -127,27 +131,35 @@ span.skill {
 li#lan {
 	display: inline-block;
 	float: left;
-	padding-left: 3%;
+	
 	padding-top: 2%;
 
 }
 #lan i {
 	color: #2f4152;
 
+
 }
 .language {
-	width: 40%;
+	width: 50%;
 	float: left;
-	padding-left: 5%;
+	
 }
-.language li h3 {
-	padding-right: 5%;
+#lan h3 {
+	width: 20%;
+	padding-left: 12%;
 	font-size: 2em;
-	font-family: 'Indie Flowers';
+	
+}
+.language h4 {
+	float: center;
+	font-size: 1.2em;
+	padding-left: 10%;
+	
 }
 div.work {
 	background: #2F4051;
-	margin: 3% 0 3% 0;
+	margin: 3% 0 0 0;
 
 }
 
@@ -157,10 +169,61 @@ div.work {
 	color: white;
 	padding: 2% 0 2% 0;
 }
-h5#time {
-	background: #0fbef2;
-	width: 15%;
-	text-align: center;
-	padding: 2px 0 2px 0;
-	border-radius: 40%;
+
+.row {
+	margin: 0 2%;
+}
+
+
+@media (max-width: 1024px) {
+	.navbar-header {
+		padding-bottom: 0;
+		padding-top: 0.2%;
+	
+	}
+}
+@media (max-width: 768px){
+	#detail {
+	margin: 9% 0 3% 0;
+	font-size: 1em;
+}
+	.navbar-header {
+		padding-bottom: 0;
+		padding-top: 0.8%;
+	
+	}
+}
+@media (max-width: 640px){
+	#detail {
+	margin: 14% 0 2% 0;
+	font-size: 0.90em;
+	padding-left: 0;
+}
+	#lan {
+	width: 100%;
+	padding-left: 20%;
+	}
+	.navbar-header {
+		padding-bottom: 0;
+		padding-top: 1.2%;
+	
+	}
+}
+@media (max-width: 480px){
+	body {
+		font-size: 10px;
+	}
+	#detail {
+	margin: 12% 0 5% 0;
+	padding-left: 0;
+}
+#lan {
+	width: 100%;
+	padding-left: 30%;
+}
+	.navbar-header {
+		padding-bottom: 0;
+		padding-top: 2.5%;
+	
+	}
 }
